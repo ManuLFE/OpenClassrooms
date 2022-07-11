@@ -652,6 +652,9 @@ div.rentals-cards:nth-child(6) > a:nth-child(1) > div:nth-child(1) > img:nth-chi
 
 /*____________________Section N°3____________________*/
 
+.section-three {
+    margin: 63px auto;
+}
 
 .activities-card-container {
     display: flex;
@@ -674,6 +677,10 @@ div.rentals-cards:nth-child(6) > a:nth-child(1) > div:nth-child(1) > img:nth-chi
     gap: 5%;
 }
 
+.activities-card-small-container img {
+    height: 80%;
+}
+   
 .activities-card-large {
     flex: 1;
     width: 25%;
@@ -737,6 +744,14 @@ div.activities-card-small-container:nth-child(2) > a:nth-child(2) {
     max-height: 36%;
    }
 
+   div.activities-card-small-container:nth-child(2) > a:nth-child(2) > img:nth-child(1) {
+    height: 75%;
+   }
+
+   div.activities-card-small-container:nth-child(2) > a:nth-child(1) > img:nth-child(1) {
+    height: 83%;
+}
+
 /*--END--*/
 
 
@@ -757,6 +772,18 @@ div.activities-card-small-container:nth-child(2) > a:nth-child(2) {
 
     .activities-card-container h3 {
         font-size: 20px;
+    }
+
+    .activities-card-image {
+        height: 80%;
+    }
+
+    div.activities-card-small-container:nth-child(2) > a:nth-child(2) > img:nth-child(1) {
+        height: 80%;
+       }
+
+    div.activities-card-small-container:nth-child(2) > a:nth-child(1) > img:nth-child(1) {
+        height: 79%;
     }
 
     .activities-card-title {
