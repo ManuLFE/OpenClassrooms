@@ -28,7 +28,6 @@ main a {
     color: black;
 }
 
-
 .container {
     width: 100%;
     max-width: 1340px;
@@ -91,8 +90,6 @@ button {
     width: 150px;
     box-sizing:content-box;
 }
-
-
 
 .navbar a:hover,
 .navbar a:focus,
@@ -206,7 +203,6 @@ i.fas.fa-map-marker-alt {
     display: none;
 }
 
-
 /*____________________MOBILE Search Bar____________________*/
 @media screen and (max-width: 768px) {
     
@@ -231,7 +227,6 @@ i.fas.fa-map-marker-alt {
         border: none;
     }
 }
-
 
 /*____________________Filters____________________*/
 
@@ -449,7 +444,6 @@ div.rentals-cards:nth-child(6) > a:nth-child(1) > div:nth-child(1) > img:nth-chi
     transition: transform 0.45s ease-out;
 }
 
-
 .rentals-read-more p:after {
     content: '';
     position: absolute;
@@ -471,9 +465,6 @@ div.rentals-cards:nth-child(6) > a:nth-child(1) > div:nth-child(1) > img:nth-chi
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-
-
-
 
 .populars-card-container {
     display: flex;
@@ -753,7 +744,6 @@ div.activities-card-small-container:nth-child(2) > a:nth-child(2) {
 }
 
 /*--END--*/
-
 
 @media screen and (max-width: 768px) {
     .activities-card-container {
