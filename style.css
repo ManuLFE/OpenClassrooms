@@ -258,7 +258,7 @@ i.fas.fa-map-marker-alt {
     margin: auto 30px auto 0;
 }
 
-/*---Icônes filtres---*/
+/*---Filters Icons---*/
 
 .filter-icons {
     background-color: #deebff;
@@ -297,9 +297,13 @@ i.fa.fa-info {
     margin: auto 0;
 }
 
-/*---END Icônes filtres---*/
+.icons-wrapper li:hover {
+    transform: translateY(-5px);
+    transition: ease-in-out 0.4s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1)
+}
 
-/* Icônes filtres responsive */
+/* RESPONSIVE Filters Icons */
 
 @media screen and (max-width: 992px) {
     .filter-container {
@@ -307,12 +311,6 @@ i.fa.fa-info {
         flex-direction: column;
         align-items: flex-start;
     }
-}
-
-.icons-wrapper li:hover {
-    transform: translateY(-5px);
-    transition: ease-in-out 0.4s;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1)
 }
 
 /*____________________Section N°2____________________*/
@@ -553,6 +551,8 @@ div.rentals-cards:nth-child(6) > a:nth-child(1) > div:nth-child(1) > img:nth-chi
     margin-bottom: 10px;
 }
 
+
+/*____________________RESPONSIVE Section N°2____________________*/
 @media screen and (max-width:992px) {
     .section-two {
     max-height: none;
@@ -745,6 +745,7 @@ div.activities-card-small-container:nth-child(2) > a:nth-child(2) {
 
 /*--END--*/
 
+/*____________________RESPONSIVE Section N°3____________________*/
 @media screen and (max-width: 768px) {
     .activities-card-container {
         flex-flow: column nowrap;
@@ -832,4 +833,15 @@ div.activities-card-small-container:nth-child(2) > a:nth-child(2) {
 .footer-wrapper ul a {
     text-decoration: none;
     color: #202020;
+}
+
+/*____________________RESPONSIVE Footer____________________*/
+
+@media screen and (max-width: 768px) {
+    .footer-wrapper {
+        flex-flow: column nowrap;
+        height: auto;
+        margin-left: 35px;
+        align-items: flex-start;
+    }
 }
