@@ -48,7 +48,6 @@ button {
 }
 
 /*____________________Nav Bar____________________*/
-
 .navbar {
     display: flex;
     flex-direction: row;
@@ -101,7 +100,6 @@ button {
 }
 
 /*____________________MOBILE Nav Bar____________________*/
-
 @media screen and (max-width: 768px) { 
     .navbar {
             flex-direction: column;
@@ -142,7 +140,6 @@ button {
 }
 
 /*____________________Search Bar Section____________________*/
-
 .section-one h1 {
     margin: 20px 0;
 }
@@ -229,7 +226,6 @@ i.fas.fa-map-marker-alt {
 }
 
 /*____________________Filters____________________*/
-
 .filter-container {
     display: flex;
     flex-direction: row;
@@ -259,7 +255,6 @@ i.fas.fa-map-marker-alt {
 }
 
 /*---Filters Icons---*/
-
 .filter-icons {
     background-color: #deebff;
     color: #0065fc;
@@ -303,8 +298,7 @@ i.fa.fa-info {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1)
 }
 
-/* RESPONSIVE Filters Icons */
-
+/* -- RESPONSIVE Filters Icons -- */
 @media screen and (max-width: 992px) {
     .filter-container {
         display: flex;
@@ -314,7 +308,6 @@ i.fa.fa-info {
 }
 
 /*____________________Section N°2____________________*/
-
 .section-two {
     display: flex;
     flex-flow: row nowrap;
@@ -641,8 +634,8 @@ div.rentals-cards:nth-child(6) > a:nth-child(1) > div:nth-child(1) > img:nth-chi
     }
 }
 
-/*____________________Section N°3____________________*/
 
+/*____________________Section N°3____________________*/
 .section-three {
     margin: 63px auto;
 }
@@ -809,7 +802,6 @@ div.activities-card-small-container:nth-child(2) > a:nth-child(2) {
 }
 
 /*____________________Footer____________________*/
-
 .footer-background {
     background-color: #F2F2F2;
 }
@@ -836,7 +828,6 @@ div.activities-card-small-container:nth-child(2) > a:nth-child(2) {
 }
 
 /*____________________RESPONSIVE Footer____________________*/
-
 @media screen and (max-width: 768px) {
     .footer-wrapper {
         flex-flow: column nowrap;
